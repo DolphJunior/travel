@@ -1,0 +1,184 @@
+:root{
+    --cor-fonte-principal: #FFFFFF;
+    --cor-titulo-secundario: #181E4B;
+    --cor-texto-categoria: #DF6951;
+    --cor-texto: #000000;
+    --tamanho_fonte_principal: 16px;
+    --tamanho-titulo_secundario: 50px;
+    --fonte-principal: 'Poppins';
+    --fonte-titulo-principal: 'Yesteryear';
+    --fonte-titulo-secundario: 'Volkhov';
+
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: var(--cor-fonte-principal);
+    font-size: var(--tamanho_fonte_principal);
+    font-family: var(--fonte-principal);
+}
+
+.container{
+    height: 100vh;
+}
+
+.principal{
+    background-image: url(/img/Rectangle\ 19290.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+.navegacao{
+    display: flex;  
+}
+
+.principal__navegacao{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.navegacao__links{
+    justify-content: space-around;
+}
+
+.navegacao__links a{
+    
+    text-decoration: none;
+    color: var(--cor-fonte-principal);
+    padding: 1em;
+    font-size: 17px;
+}
+
+.botao{
+    background-color: #DF6951;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--cor-fonte-principal);
+}
+
+.container__titulo__principal{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.texto__titulo__principal{
+    
+    font-size: 16px;
+    margin-bottom: 0%;
+}
+
+.titulo__principal{
+    color: var(--cor-fonte-principal);
+    font-family: var(--fonte-titulo-principal);
+    font-size: 157px;
+}
+
+
+.secundario{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+}
+.caixa__secundario{
+    
+    display: flex;
+    padding-right: 40px;
+    
+}
+.titulo__secundario{
+    color: var(--cor-titulo-secundario);
+    font-size: var(--tamanho-titulo_secundario);
+    font-family: var(--fonte-titulo-secundario);
+    
+}
+
+.texto__secundario{
+    color: var(--cor-texto);
+    font-size: var(--tamanho_fonte_principal);
+    font-family: var(--fonte-principal);
+
+}
+
+.categorias{
+    font-weight: bold;
+    font-size: var(--tamanho_fonte_principal);
+    color: var(--cor-texto-categoria);
+    font-family: var(--fonte-principal);
+}
+
+.imagem__secundario{
+    background-image: url(img/bg\ style.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    
+}
+
+.caixa_imagem_secundario{
+    position: relative;
+    top:0px; 
+    left:100px;
+}
+
+.caixa_imagem_canoa{
+    position: absolute;
+    top:13px; left:15px;
+}
+
+.imagem_ellipse{
+    width: 400px;
+}
+
+.imagem_canoa{
+    width: 370px;
+}
+
+.video{
+    background-image: url(img/Rectangle\ 19353.png);
+}
+
+.container__titulo__video{
+
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 100px;
+    
+   
+}
+
+
+.texto__video{
+    color: var(--cor-fonte-principal);
+    font-family: var(--fonte-titulo-principal);
+    font-size: 157px;
+   
+   
+}
+
+
+
+
+
+
+   
+
+
+
+
